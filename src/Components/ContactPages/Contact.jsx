@@ -16,7 +16,7 @@ const Contact = (props) => {
       <div className="col-6 col-md-5 text-warning pt-0">
         <span className="h4">{props.contact.name}</span>
         <br />
-        <div className="text-white-50">
+        <div className="text-white-60">
           {props.contact.email}
           <br />
           {props.contact.phone}
